@@ -1,4 +1,4 @@
-# NOTE: Repo does not have any merge history, since a public version (without proprietary files) was created from the private repo.
+#### NOTE: Repo does not have any merge history, since a public version (without proprietary files) was created from the private repo.
 # AI Contract Assessor
 
 A Gradio-based web application for evaluating and understanding vendor contracts. Created for assisting procurement teams in evaluating supplier agreements through automated scoring, vendor based question answering, and optional metrics visualization.
