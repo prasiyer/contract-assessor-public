@@ -1,0 +1,462 @@
+2025-12-19 21:09:10,314 [INFO] contract_assessor.app: File logging enabled at /home/vp899/projects/contract_assessor/Output/output_log.txt
+2025-12-19 21:09:10,314 [INFO] contract_assessor.app: Logging initialised.
+2025-12-19 21:09:11,259 [INFO] contract_assessor.app: Loaded contract chunk embeddings from /home/vp899/projects/contract_assessor/Output/contract_chunk_embeddings.csv
+2025-12-19 21:09:12,900 [INFO] contract_assessor.app: Loaded vendor name embeddings from /home/vp899/projects/contract_assessor/Output/vendor_name_embeddings.csv
+2025-12-19 21:09:12,916 [INFO] contract_assessor.app: Preloaded 429 contract chunks and 5 vendor embeddings
+2025-12-19 21:09:56,738 [INFO] contract_assessor.app: Received chat question: Who are the suppliers with more than 8 weeks of firm period in the rolling forecast?
+2025-12-19 21:09:56,739 [INFO] contract_assessor.app: Initialising contract assistant client with model gpt-4o-mini
+2025-12-19 21:09:58,423 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 21:09:58,423 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2025-12-19 21:09:59,154 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 21:09:59,154 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2025-12-19 21:09:59,883 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 21:16:51,996 [INFO] contract_assessor.app: File logging enabled at /home/vp899/projects/contract_assessor/Output/output_log.txt
+2025-12-19 21:16:51,996 [INFO] contract_assessor.app: Logging initialised.
+2025-12-19 21:16:52,908 [INFO] contract_assessor.app: Loaded contract chunk embeddings from /home/vp899/projects/contract_assessor/Output/contract_chunk_embeddings.csv
+2025-12-19 21:16:54,493 [INFO] contract_assessor.app: Loaded vendor name embeddings from /home/vp899/projects/contract_assessor/Output/vendor_name_embeddings.csv
+2025-12-19 21:16:54,509 [INFO] contract_assessor.app: Preloaded 429 contract chunks and 5 vendor embeddings
+2025-12-19 21:17:04,265 [INFO] contract_assessor.app: Received chat question: Who are the suppliers with more than 8 weeks of firm period in the rolling forecast?
+2025-12-19 21:17:04,266 [INFO] contract_assessor.app: Initialising contract assistant client with model gpt-4o-mini
+2025-12-19 21:17:05,917 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 21:17:05,917 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2025-12-19 21:17:05,918 [INFO] contract_assessor.app: Tool call to function: find_closest_vendor_names
+2025-12-19 21:17:06,628 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 21:17:06,628 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2025-12-19 21:17:06,628 [INFO] contract_assessor.app: Tool call to function: get_relevant_contract_chunks
+2025-12-19 21:17:07,508 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 21:22:03,407 [INFO] contract_assessor.app: File logging enabled at /home/vp899/projects/contract_assessor/Output/output_log.txt
+2025-12-19 21:22:03,408 [INFO] contract_assessor.app: Logging initialised.
+2025-12-19 21:22:04,847 [INFO] contract_assessor.app: Loaded contract chunk embeddings from /home/vp899/projects/contract_assessor/Output/contract_chunk_embeddings.csv
+2025-12-19 21:22:06,465 [INFO] contract_assessor.app: Loaded vendor name embeddings from /home/vp899/projects/contract_assessor/Output/vendor_name_embeddings.csv
+2025-12-19 21:22:06,481 [INFO] contract_assessor.app: Preloaded 429 contract chunks and 5 vendor embeddings
+2025-12-19 21:22:41,948 [INFO] contract_assessor.app: Received chat question: In the rolling forecast, which suppliers have firm period greater than 8 weeks?
+2025-12-19 21:22:41,949 [INFO] contract_assessor.app: Initialising contract assistant client with model gpt-4o-mini
+2025-12-19 21:22:43,595 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 21:22:43,596 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2025-12-19 21:22:43,596 [INFO] contract_assessor.app: Tool call to function: find_closest_vendor_names
+2025-12-19 21:22:43,596 [INFO] contract_assessor.app: Finding closest vendor names for input: ['suppliers']
+2025-12-19 21:22:43,596 [INFO] contract_assessor.app: Initialising embedding client with model text-embedding-3-small
+2025-12-19 21:22:44,491 [INFO] contract_assessor.app: Matched vendor query 'suppliers' to 'Hengli' with confidence 0.2547
+2025-12-19 21:22:45,242 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 21:22:45,242 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2025-12-19 21:22:45,243 [INFO] contract_assessor.app: Tool call to function: get_relevant_contract_chunks
+2025-12-19 21:22:46,977 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 21:24:21,774 [INFO] contract_assessor.app: Received chat question: For Giuliani, what is the termination clause?
+2025-12-19 21:24:23,454 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 21:24:23,454 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2025-12-19 21:24:23,454 [INFO] contract_assessor.app: Tool call to function: find_closest_vendor_names
+2025-12-19 21:24:23,454 [INFO] contract_assessor.app: Finding closest vendor names for input: ['Giuliani']
+2025-12-19 21:24:24,314 [INFO] contract_assessor.app: Matched vendor query 'Giuliani' to 'Giuliani' with confidence 1.0000
+2025-12-19 21:24:25,119 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 21:24:25,120 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2025-12-19 21:24:25,120 [INFO] contract_assessor.app: Tool call to function: get_relevant_contract_chunks
+2025-12-19 21:24:29,067 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 21:24:52,279 [INFO] contract_assessor.app: Received chat question: For Mocdro, what is the termination clause?
+2025-12-19 21:24:53,906 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 21:24:53,906 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2025-12-19 21:24:53,906 [INFO] contract_assessor.app: Tool call to function: find_closest_vendor_names
+2025-12-19 21:24:53,907 [INFO] contract_assessor.app: Finding closest vendor names for input: ['Mocdro']
+2025-12-19 21:24:54,771 [INFO] contract_assessor.app: Matched vendor query 'Mocdro' to 'Mocdrol' with confidence 0.6511
+2025-12-19 21:24:55,969 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 21:24:55,969 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2025-12-19 21:24:55,969 [INFO] contract_assessor.app: Tool call to function: get_relevant_contract_chunks
+2025-12-19 21:24:59,296 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 21:32:40,594 [INFO] contract_assessor.app: File logging enabled at /home/vp899/projects/contract_assessor/Output/output_log.txt
+2025-12-19 21:32:40,594 [INFO] contract_assessor.app: Logging initialised.
+2025-12-19 21:32:41,522 [INFO] contract_assessor.app: Loaded contract chunk embeddings from /home/vp899/projects/contract_assessor/Output/contract_chunk_embeddings.csv
+2025-12-19 21:32:43,117 [INFO] contract_assessor.app: Loaded vendor name embeddings from /home/vp899/projects/contract_assessor/Output/vendor_name_embeddings.csv
+2025-12-19 21:32:43,134 [INFO] contract_assessor.app: Preloaded 429 contract chunks and 5 vendor embeddings
+2025-12-19 21:34:38,562 [INFO] contract_assessor.app: Received chat question: For which suppliers, the number of weeks in the rolling forecast for firm orders is greater than 8 weeks?
+2025-12-19 21:34:38,562 [INFO] contract_assessor.app: Initialising contract assistant client with model gpt-4o-mini
+2025-12-19 21:34:40,157 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 21:34:40,157 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2025-12-19 21:34:40,157 [INFO] contract_assessor.app: Tool call to function: find_closest_vendor_names
+2025-12-19 21:34:40,871 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 21:34:40,871 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2025-12-19 21:34:40,872 [INFO] contract_assessor.app: Tool call to function: get_relevant_contract_chunks
+2025-12-19 21:34:41,781 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 21:37:30,773 [INFO] contract_assessor.app: Received chat question: For which suppliers, the number of weeks in the rolling forecast for firm orders is greater than 8 weeks?
+2025-12-19 21:37:32,272 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 21:37:32,272 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2025-12-19 21:37:32,272 [INFO] contract_assessor.app: Tool call to function: find_closest_vendor_names
+2025-12-19 21:37:32,272 [INFO] contract_assessor.app: Finding closest vendor names for input: ['rolling forecast for firm orders']
+2025-12-19 21:37:32,272 [INFO] contract_assessor.app: Initialising embedding client with model text-embedding-3-small
+2025-12-19 21:37:33,187 [INFO] contract_assessor.app: Matched vendor query 'rolling forecast for firm orders' to 'Mocdrol' with confidence 0.1730
+2025-12-19 21:37:33,188 [WARNING] contract_assessor.app: Low confidence (0.1730) matching vendor name 'rolling forecast for firm orders' to 'Mocdrol'
+2025-12-19 21:37:33,978 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 21:41:03,414 [INFO] contract_assessor.app: File logging enabled at /home/vp899/projects/contract_assessor/Output/output_log.txt
+2025-12-19 21:41:03,414 [INFO] contract_assessor.app: Logging initialised.
+2025-12-19 21:41:04,341 [INFO] contract_assessor.app: Loaded contract chunk embeddings from /home/vp899/projects/contract_assessor/Output/contract_chunk_embeddings.csv
+2025-12-19 21:41:05,911 [INFO] contract_assessor.app: Loaded vendor name embeddings from /home/vp899/projects/contract_assessor/Output/vendor_name_embeddings.csv
+2025-12-19 21:41:05,928 [INFO] contract_assessor.app: Preloaded 429 contract chunks and 5 vendor embeddings
+2025-12-19 21:41:26,512 [INFO] contract_assessor.app: Received chat question: For which suppliers, the number of weeks in the rolling forecast for firm orders is greater than 8 weeks?
+2025-12-19 21:41:26,512 [INFO] contract_assessor.app: Initialising contract assistant client with model gpt-4o-mini
+2025-12-19 21:41:28,150 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 21:41:28,150 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2025-12-19 21:41:28,151 [INFO] contract_assessor.app: Tool call to function: find_closest_vendor_names
+2025-12-19 21:41:28,151 [INFO] contract_assessor.app: Matched Tool call to function: find_closest_vendor_names
+2025-12-19 21:41:28,808 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 21:41:28,808 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2025-12-19 21:41:28,808 [INFO] contract_assessor.app: Tool call to function: get_relevant_contract_chunks
+2025-12-19 21:41:28,808 [INFO] contract_assessor.app: Matched Tool call to function: get_relevant_contract_chunks
+2025-12-19 21:41:29,638 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 22:06:56,526 [INFO] contract_assessor.app: File logging enabled at /home/vp899/projects/contract_assessor/Output/output_log.txt
+2025-12-19 22:06:56,527 [INFO] contract_assessor.app: Logging initialised.
+2025-12-19 22:06:57,435 [INFO] contract_assessor.app: Loaded contract chunk embeddings from /home/vp899/projects/contract_assessor/Output/contract_chunk_embeddings.csv
+2025-12-19 22:06:59,078 [INFO] contract_assessor.app: Loaded vendor name embeddings from /home/vp899/projects/contract_assessor/Output/vendor_name_embeddings.csv
+2025-12-19 22:06:59,094 [INFO] contract_assessor.app: Preloaded 429 contract chunks and 5 vendor embeddings
+2025-12-19 22:07:17,372 [INFO] contract_assessor.app: Received chat question: For which suppliers, the number of weeks in the rolling forecast for firm orders is greater than 8 weeks?
+2025-12-19 22:07:17,373 [INFO] contract_assessor.app: Initialising contract assistant client with model gpt-4o-mini
+2025-12-19 22:07:19,652 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 22:07:19,652 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2025-12-19 22:07:19,652 [INFO] contract_assessor.app: Tool call to function: find_closest_vendor_names
+2025-12-19 22:07:19,652 [INFO] contract_assessor.app: Matched Tool call to function: find_closest_vendor_names
+2025-12-19 22:07:19,652 [INFO] contract_assessor.app: Matched vendor names returned: []
+2025-12-19 22:07:20,335 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 22:07:20,335 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2025-12-19 22:07:20,335 [INFO] contract_assessor.app: Tool call to function: get_relevant_contract_chunks
+2025-12-19 22:07:20,336 [INFO] contract_assessor.app: Matched Tool call to function: get_relevant_contract_chunks
+2025-12-19 22:07:21,076 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 22:09:19,511 [INFO] contract_assessor.app: File logging enabled at /home/vp899/projects/contract_assessor/Output/output_log.txt
+2025-12-19 22:09:19,511 [INFO] contract_assessor.app: Logging initialised.
+2025-12-19 22:09:20,431 [INFO] contract_assessor.app: Loaded contract chunk embeddings from /home/vp899/projects/contract_assessor/Output/contract_chunk_embeddings.csv
+2025-12-19 22:09:22,026 [INFO] contract_assessor.app: Loaded vendor name embeddings from /home/vp899/projects/contract_assessor/Output/vendor_name_embeddings.csv
+2025-12-19 22:09:22,042 [INFO] contract_assessor.app: Preloaded 429 contract chunks and 5 vendor embeddings
+2025-12-19 22:09:41,927 [INFO] contract_assessor.app: Received chat question: For which suppliers, the number of weeks in the rolling forecast for firm orders is greater than 8 weeks?
+2025-12-19 22:09:41,928 [INFO] contract_assessor.app: Initialising contract assistant client with model gpt-4o-mini
+2025-12-19 22:09:43,510 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 22:09:43,511 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2025-12-19 22:09:43,511 [INFO] contract_assessor.app: Tool call to function: find_closest_vendor_names
+2025-12-19 22:09:43,511 [INFO] contract_assessor.app: Matched Tool call to function: find_closest_vendor_names
+2025-12-19 22:09:43,511 [INFO] contract_assessor.app: Matched vendor names returned: []
+2025-12-19 22:09:44,138 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 22:09:44,138 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2025-12-19 22:09:44,138 [INFO] contract_assessor.app: Tool call to function: get_relevant_contract_chunks
+2025-12-19 22:09:44,138 [INFO] contract_assessor.app: Matched Tool call to function: get_relevant_contract_chunks
+2025-12-19 22:09:45,036 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 22:25:39,481 [INFO] contract_assessor.app: File logging enabled at /home/vp899/projects/contract_assessor/Output/output_log.txt
+2025-12-19 22:25:39,481 [INFO] contract_assessor.app: Logging initialised.
+2025-12-19 22:25:40,407 [INFO] contract_assessor.app: Loaded contract chunk embeddings from /home/vp899/projects/contract_assessor/Output/contract_chunk_embeddings.csv
+2025-12-19 22:25:41,994 [INFO] contract_assessor.app: Loaded vendor name embeddings from /home/vp899/projects/contract_assessor/Output/vendor_name_embeddings.csv
+2025-12-19 22:25:42,011 [INFO] contract_assessor.app: Preloaded 429 contract chunks and 5 vendor embeddings
+2025-12-19 22:25:58,416 [INFO] contract_assessor.app: Received chat question: For which suppliers, the number of weeks in the rolling forecast for firm orders is greater than 8 weeks?
+2025-12-19 22:25:58,417 [INFO] contract_assessor.app: Initialising contract assistant client with model gpt-4o-mini
+2025-12-19 22:26:00,001 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 22:26:00,001 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2025-12-19 22:26:00,001 [INFO] contract_assessor.app: Tool call to function: find_closest_vendor_names
+2025-12-19 22:26:00,001 [INFO] contract_assessor.app: Matched Tool call to function: find_closest_vendor_names
+2025-12-19 22:26:00,001 [INFO] contract_assessor.app: Matched vendor names returned: []
+2025-12-19 22:26:00,616 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 22:26:00,616 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2025-12-19 22:26:00,616 [INFO] contract_assessor.app: Tool call to function: get_relevant_contract_chunks
+2025-12-19 22:26:00,616 [INFO] contract_assessor.app: Matched Tool call to function: get_relevant_contract_chunks
+2025-12-19 22:26:01,557 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 22:27:31,462 [INFO] contract_assessor.app: File logging enabled at /home/vp899/projects/contract_assessor/Output/output_log.txt
+2025-12-19 22:27:31,462 [INFO] contract_assessor.app: Logging initialised.
+2025-12-19 22:27:32,378 [INFO] contract_assessor.app: Loaded contract chunk embeddings from /home/vp899/projects/contract_assessor/Output/contract_chunk_embeddings.csv
+2025-12-19 22:27:33,955 [INFO] contract_assessor.app: Loaded vendor name embeddings from /home/vp899/projects/contract_assessor/Output/vendor_name_embeddings.csv
+2025-12-19 22:27:33,970 [INFO] contract_assessor.app: Preloaded 429 contract chunks and 5 vendor embeddings
+2025-12-19 22:27:44,384 [INFO] contract_assessor.app: Received chat question: For which suppliers, the number of weeks in the rolling forecast for firm orders is greater than 8 weeks?
+2025-12-19 22:27:44,385 [INFO] contract_assessor.app: Initialising contract assistant client with model gpt-4o-mini
+2025-12-19 22:27:46,000 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 22:27:46,000 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2025-12-19 22:27:46,000 [INFO] contract_assessor.app: Tool call to function: find_closest_vendor_names
+2025-12-19 22:27:46,000 [INFO] contract_assessor.app: Matched Tool call to function: find_closest_vendor_names
+2025-12-19 22:27:46,001 [INFO] contract_assessor.app: Finding closest vendor names for input: ['suppliers']
+2025-12-19 22:27:46,001 [INFO] contract_assessor.app: Initialising embedding client with model text-embedding-3-small
+2025-12-19 22:27:46,876 [INFO] contract_assessor.app: Matched vendor query 'suppliers' to 'Hengli' with confidence 0.2547
+2025-12-19 22:27:46,876 [WARNING] contract_assessor.app: Low confidence (0.2547) matching vendor name 'suppliers' to 'Hengli'
+2025-12-19 22:27:46,876 [INFO] contract_assessor.app: Matched vendor names returned: []
+2025-12-19 22:27:47,686 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 22:51:57,831 [INFO] contract_assessor.app: File logging enabled at /home/vp899/projects/contract_assessor/Output/output_log.txt
+2025-12-19 22:51:57,832 [INFO] contract_assessor.app: Logging initialised.
+2025-12-19 22:51:58,740 [INFO] contract_assessor.app: Loaded contract chunk embeddings from /home/vp899/projects/contract_assessor/Output/contract_chunk_embeddings.csv
+2025-12-19 22:52:00,515 [INFO] contract_assessor.app: Loaded vendor name embeddings from /home/vp899/projects/contract_assessor/Output/vendor_name_embeddings.csv
+2025-12-19 22:52:00,531 [INFO] contract_assessor.app: Preloaded 429 contract chunks and 5 vendor embeddings
+2025-12-19 22:52:17,144 [INFO] contract_assessor.app: Received chat question: For which suppliers, the number of weeks in the rolling forecast for firm orders is greater than 8 weeks?
+2025-12-19 22:52:17,145 [INFO] contract_assessor.app: Initialising contract assistant client with model gpt-4.1-mini
+2025-12-19 22:52:18,819 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 22:52:18,819 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2025-12-19 22:52:18,820 [INFO] contract_assessor.app: Tool call to function: find_closest_vendor_names
+2025-12-19 22:52:18,820 [INFO] contract_assessor.app: Matched Tool call to function: find_closest_vendor_names
+2025-12-19 22:52:18,820 [INFO] contract_assessor.app: Matched vendor names returned: []
+2025-12-19 22:52:19,635 [INFO] contract_assessor.app: LLM response content received.
+2025-12-19 22:52:19,635 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2025-12-19 22:52:19,635 [INFO] contract_assessor.app: Tool call to function: get_relevant_contract_chunks
+2025-12-19 22:52:19,635 [INFO] contract_assessor.app: Matched Tool call to function: get_relevant_contract_chunks
+2025-12-19 22:52:20,500 [INFO] contract_assessor.app: LLM response content received.
+2026-01-04 21:41:59,730 [INFO] contract_assessor.app: File logging enabled at /home/vp899/projects/contract_assessor/Output/output_log.txt
+2026-01-04 21:41:59,731 [INFO] contract_assessor.app: Logging initialised.
+2026-01-04 21:42:00,675 [INFO] contract_assessor.app: Loaded contract chunk embeddings from /home/vp899/projects/contract_assessor/Output/contract_chunk_embeddings.csv
+2026-01-04 21:42:02,359 [INFO] contract_assessor.app: Loaded vendor name embeddings from /home/vp899/projects/contract_assessor/Output/vendor_name_embeddings.csv
+2026-01-04 21:42:02,376 [INFO] contract_assessor.app: Preloaded 429 contract chunks and 5 vendor embeddings
+2026-01-04 21:42:38,526 [INFO] contract_assessor.app: Received chat question: What is the termination clause for vendor Giuliani?
+2026-01-04 21:42:38,527 [INFO] contract_assessor.app: Initialising contract assistant client with model gpt-4.1-mini
+2026-01-04 21:42:40,152 [INFO] contract_assessor.app: LLM response content received.
+2026-01-04 21:42:40,152 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2026-01-04 21:42:40,152 [INFO] contract_assessor.app: Tool call to function: find_closest_vendor_names
+2026-01-04 21:42:40,152 [INFO] contract_assessor.app: Matched Tool call to function: find_closest_vendor_names
+2026-01-04 21:42:40,152 [INFO] contract_assessor.app: Finding closest vendor names for input: ['Giuliani']
+2026-01-04 21:42:40,152 [INFO] contract_assessor.app: Initialising embedding client with model text-embedding-3-small
+2026-01-04 21:42:40,926 [INFO] contract_assessor.app: Matched vendor query 'Giuliani' to 'Giuliani' with confidence 1.0000
+2026-01-04 21:42:40,926 [INFO] contract_assessor.app: Matched vendor names returned: ['Giuliani']
+2026-01-04 21:42:41,562 [INFO] contract_assessor.app: LLM response content received.
+2026-01-04 21:42:41,562 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2026-01-04 21:42:41,562 [INFO] contract_assessor.app: Tool call to function: get_relevant_contract_chunks
+2026-01-04 21:42:41,562 [INFO] contract_assessor.app: Matched Tool call to function: get_relevant_contract_chunks
+2026-01-04 21:42:44,656 [INFO] contract_assessor.app: LLM response content received.
+2026-01-04 21:43:32,182 [INFO] contract_assessor.app: Starting contract assessment for vendor=wipro category=FCC
+2026-01-04 21:45:12,470 [INFO] contract_assessor.app: Contract assessment completed successfully for vendor=wipro
+2026-01-04 21:53:37,131 [INFO] contract_assessor.app: File logging enabled at /home/vp899/projects/contract_assessor/Output/output_log.txt
+2026-01-04 21:53:37,132 [INFO] contract_assessor.app: Logging initialised.
+2026-01-05 19:18:21,701 [INFO] contract_assessor.app: File logging enabled at /home/vp899/projects/contract_assessor/Output/output_log.txt
+2026-01-05 19:18:21,701 [INFO] contract_assessor.app: Logging initialised.
+2026-01-05 19:18:22,640 [INFO] contract_assessor.app: Loaded contract chunk embeddings from /home/vp899/projects/contract_assessor/Output/contract_chunk_embeddings.csv
+2026-01-05 19:18:24,245 [INFO] contract_assessor.app: Loaded vendor name embeddings from /home/vp899/projects/contract_assessor/Output/vendor_name_embeddings.csv
+2026-01-05 19:18:24,261 [INFO] contract_assessor.app: Preloaded 429 contract chunks and 5 vendor embeddings
+2026-01-05 19:19:00,737 [INFO] contract_assessor.app: Received chat question: Can you give me the list of suppliers with payment terms greater than 60 days?
+2026-01-05 19:19:00,737 [INFO] contract_assessor.app: Initialising contract assistant client with model gpt-4.1-mini
+2026-01-05 19:19:02,741 [INFO] contract_assessor.app: LLM response content received.
+2026-01-20 20:39:44,907 [INFO] contract_assessor.app: File logging enabled at /home/vp899/projects/contract_assessor/Output/output_log.txt
+2026-01-20 20:39:44,909 [INFO] contract_assessor.app: Logging initialised.
+2026-01-23 21:55:47,092 [INFO] contract_assessor.app: File logging enabled at /home/vp899/projects/contract_assessor/Output/output_log.txt
+2026-01-23 21:55:47,093 [INFO] contract_assessor.app: Logging initialised.
+2026-01-30 20:59:49,342 [INFO] contract_assessor.app: File logging enabled at /home/vp899/projects/contract_assessor/Output/output_log.txt
+2026-01-30 20:59:49,342 [INFO] contract_assessor.app: Logging initialised.
+2026-01-30 20:59:52,726 [INFO] contract_assessor.app: Loaded contract chunk embeddings from /home/vp899/projects/contract_assessor/Output/contract_chunk_embeddings.csv
+2026-01-30 21:00:36,368 [INFO] contract_assessor.app: Loaded vendor name embeddings from /home/vp899/projects/contract_assessor/Output/vendor_name_embeddings.csv
+2026-01-30 21:00:36,919 [INFO] contract_assessor.app: Preloaded 9830 contract chunks and 114 vendor embeddings
+2026-01-30 21:01:21,982 [WARNING] contract_assessor.app: Contract assessment attempted without vendor name.
+2026-01-30 21:01:21,982 [WARNING] contract_assessor.app: Contract assessment failed: 'Vendor name is required.'
+2026-01-30 21:03:08,819 [INFO] contract_assessor.app: Starting contract assessment for vendor=Hydromatik category=FCC
+2026-01-30 21:03:10,169 [ERROR] contract_assessor.app: Contract processing failed for vendor=Hydromatik
+Traceback (most recent call last):
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py", line 207, in handle_request
+    raise UnsupportedProtocol(
+httpcore.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/openai/_base_client.py", line 972, in request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vp899/projects/contract_assessor/Code/services/assessment.py", line 205, in run_contract_assessment
+    assessor.process_pdf_contract()
+  File "/home/vp899/projects/contract_assessor/Code/services/contract_assessor_script.py", line 440, in process_pdf_contract
+    self.extract_parameter_from_contract()
+  File "/home/vp899/projects/contract_assessor/Code/services/contract_assessor_script.py", line 276, in extract_parameter_from_contract
+    response = processor_client.get_response_with_token_tracking(MSA_batch_parameter_message, max_tokens_parameter=5000, doc_name=contract_file_name, doc_type="MSA", operation="contract_parameter_extraction", page_number=-1)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vp899/projects/contract_assessor/Code/services/oai_client.py", line 162, in get_response_with_token_tracking
+    oai_response = self.oai_azure_client.chat.completions.create(**chat_completion_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/openai/_utils/_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 1087, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/openai/_base_client.py", line 1249, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/openai/_base_client.py", line 1004, in request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+2026-01-30 21:03:10,186 [WARNING] contract_assessor.app: Contract assessment failed: 'Contract processing failed. Please review the log for details.'
+2026-01-30 21:03:27,637 [INFO] contract_assessor.app: Received chat question: What is the termination clause for Hyrdormatik?
+2026-01-30 21:03:27,638 [INFO] contract_assessor.app: Initialising contract assistant client with model gpt-4.1-mini
+2026-01-30 21:03:28,928 [ERROR] contract_assessor.app: Chat processing failed
+Traceback (most recent call last):
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py", line 207, in handle_request
+    raise UnsupportedProtocol(
+httpcore.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/openai/_base_client.py", line 972, in request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vp899/projects/contract_assessor/Code/services/chat.py", line 300, in handle_chat
+    updated_history, assistant_message = await asyncio.to_thread(
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/asyncio/threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vp899/projects/contract_assessor/Code/services/chat.py", line 200, in agent_step
+    response_content, response_tool_calls = client.get_response_with_token_tracking(
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vp899/projects/contract_assessor/Code/services/oai_client.py", line 162, in get_response_with_token_tracking
+    oai_response = self.oai_azure_client.chat.completions.create(**chat_completion_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/openai/_utils/_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 1087, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/openai/_base_client.py", line 1249, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/anaconda/envs/pi5b_py311/lib/python3.11/site-packages/openai/_base_client.py", line 1004, in request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+2026-01-30 21:05:02,693 [INFO] contract_assessor.app: File logging enabled at /home/vp899/projects/contract_assessor/Output/output_log.txt
+2026-01-30 21:05:02,693 [INFO] contract_assessor.app: Logging initialised.
+2026-01-30 21:05:06,009 [INFO] contract_assessor.app: Loaded contract chunk embeddings from /home/vp899/projects/contract_assessor/Output/contract_chunk_embeddings.csv
+2026-01-30 21:05:48,141 [INFO] contract_assessor.app: Loaded vendor name embeddings from /home/vp899/projects/contract_assessor/Output/vendor_name_embeddings.csv
+2026-01-30 21:05:48,669 [INFO] contract_assessor.app: Preloaded 9830 contract chunks and 114 vendor embeddings
+2026-01-30 21:06:12,958 [INFO] contract_assessor.app: Received chat question: What is the termination clause for Hydromatik?
+2026-01-30 21:06:12,958 [INFO] contract_assessor.app: Initialising contract assistant client with model gpt-4.1-mini
+2026-01-30 21:06:14,591 [INFO] contract_assessor.app: LLM response content received.
+2026-01-30 21:06:14,591 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2026-01-30 21:06:14,591 [INFO] contract_assessor.app: Tool call to function: find_closest_vendor_names
+2026-01-30 21:06:14,591 [INFO] contract_assessor.app: Matched Tool call to function: find_closest_vendor_names
+2026-01-30 21:06:14,592 [INFO] contract_assessor.app: Finding closest vendor names for input: ['Hydromatik']
+2026-01-30 21:06:14,592 [INFO] contract_assessor.app: Initialising embedding client with model text-embedding-3-small
+2026-01-30 21:06:15,453 [INFO] contract_assessor.app: Matched vendor query 'Hydromatik' to 'Hydromatik' with confidence 1.0000
+2026-01-30 21:06:15,454 [INFO] contract_assessor.app: Matched vendor names returned: ['Hydromatik']
+2026-01-30 21:06:16,241 [INFO] contract_assessor.app: LLM response content received.
+2026-01-30 21:06:16,241 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2026-01-30 21:06:16,241 [INFO] contract_assessor.app: Tool call to function: get_relevant_contract_chunks
+2026-01-30 21:06:16,241 [INFO] contract_assessor.app: Matched Tool call to function: get_relevant_contract_chunks
+2026-01-30 21:06:22,150 [INFO] contract_assessor.app: LLM response content received.
+2026-01-30 21:09:17,944 [INFO] contract_assessor.app: Starting contract assessment for vendor=Hydromatik category=FCC
+2026-01-30 21:11:20,853 [INFO] contract_assessor.app: Contract assessment completed successfully for vendor=Hydromatik
+2026-01-30 21:19:11,688 [INFO] contract_assessor.app: File logging enabled at /home/vp899/projects/contract_assessor/Output/output_log.txt
+2026-01-30 21:19:11,688 [INFO] contract_assessor.app: Logging initialised.
+2026-01-30 21:19:15,015 [INFO] contract_assessor.app: Loaded contract chunk embeddings from /home/vp899/projects/contract_assessor/Output/contract_chunk_embeddings.csv
+2026-01-30 21:19:57,574 [INFO] contract_assessor.app: Loaded vendor name embeddings from /home/vp899/projects/contract_assessor/Output/vendor_name_embeddings.csv
+2026-01-30 21:19:58,104 [INFO] contract_assessor.app: Preloaded 9830 contract chunks and 114 vendor embeddings
+2026-01-30 21:21:01,069 [INFO] contract_assessor.app: Starting contract assessment for vendor=hYDROMATIK category=FCC
+2026-01-30 21:21:11,995 [ERROR] contract_assessor.app: Contract processing failed for vendor=hYDROMATIK
+Traceback (most recent call last):
+  File "/home/vp899/projects/contract_assessor/Code/services/assessment.py", line 205, in run_contract_assessment
+    assessor.process_pdf_contract()
+  File "/home/vp899/projects/contract_assessor/Code/services/contract_assessor_script.py", line 439, in process_pdf_contract
+    self.convert_pdf_to_text()
+  File "/home/vp899/projects/contract_assessor/Code/services/contract_assessor_script.py", line 184, in convert_pdf_to_text
+    token_usage.prompt_tokens,
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prompt_tokens'
+2026-01-30 21:21:11,996 [WARNING] contract_assessor.app: Contract assessment failed: 'Contract processing failed. Please review the log for details.'
+2026-01-30 22:25:47,693 [INFO] contract_assessor.app: File logging enabled at /home/vp899/projects/contract_assessor/Output/output_log.txt
+2026-01-30 22:25:47,694 [INFO] contract_assessor.app: Logging initialised.
+2026-01-30 22:42:55,258 [INFO] contract_assessor.app: File logging enabled at /home/vp899/projects/contract_assessor/Output/output_log.txt
+2026-01-30 22:42:55,259 [INFO] contract_assessor.app: Logging initialised.
+2026-01-30 22:48:22,114 [INFO] contract_assessor.app: File logging enabled at /home/vp899/projects/contract_assessor/Output/output_log.txt
+2026-01-30 22:48:22,116 [INFO] contract_assessor.app: Logging initialised.
+2026-01-30 22:52:12,415 [INFO] contract_assessor.app: File logging enabled at /home/vp899/projects/contract_assessor/Output/output_log.txt
+2026-01-30 22:52:12,416 [INFO] contract_assessor.app: Logging initialised.
+2026-01-30 23:30:10,745 [INFO] contract_assessor.app: File logging enabled at /home/vp899/projects/contract_assessor/Output/output_log.txt
+2026-01-30 23:30:10,746 [INFO] contract_assessor.app: Logging initialised.
+2026-02-03 13:28:40,780 [INFO] contract_assessor.app: File logging enabled at /home/vp899/projects/contract_assessor/Output/output_log.txt
+2026-02-03 13:28:40,780 [INFO] contract_assessor.app: Logging initialised.
+2026-02-03 13:28:44,146 [INFO] contract_assessor.app: Loaded contract chunk embeddings from /home/vp899/projects/contract_assessor/Output/contract_chunk_embeddings.csv
+2026-02-03 13:29:28,032 [INFO] contract_assessor.app: Loaded vendor name embeddings from /home/vp899/projects/contract_assessor/Output/vendor_name_embeddings.csv
+2026-02-03 13:29:28,591 [INFO] contract_assessor.app: Preloaded 9830 contract chunks and 114 vendor embeddings
+2026-02-03 13:31:13,413 [INFO] contract_assessor.app: Received chat question: What is the termination clause of Hydromatik?
+2026-02-03 13:31:13,414 [INFO] contract_assessor.app: Initialising contract assistant client with model gpt-4.1-mini
+2026-02-03 13:31:15,448 [INFO] contract_assessor.app: LLM response content received.
+2026-02-03 13:31:15,448 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2026-02-03 13:31:15,448 [INFO] contract_assessor.app: Tool call to function: find_closest_vendor_names
+2026-02-03 13:31:15,449 [INFO] contract_assessor.app: Matched Tool call to function: find_closest_vendor_names
+2026-02-03 13:31:15,450 [INFO] contract_assessor.app: Finding closest vendor names for input: ['Hydromatik']
+2026-02-03 13:31:15,450 [INFO] contract_assessor.app: Initialising embedding client with model text-embedding-3-small
+2026-02-03 13:31:16,369 [INFO] contract_assessor.app: Matched vendor query 'Hydromatik' to 'Hydromatik' with confidence 1.0000
+2026-02-03 13:31:16,370 [INFO] contract_assessor.app: Matched vendor names returned: ['Hydromatik']
+2026-02-03 13:31:17,412 [INFO] contract_assessor.app: LLM response content received.
+2026-02-03 13:31:17,413 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2026-02-03 13:31:17,413 [INFO] contract_assessor.app: Tool call to function: get_relevant_contract_chunks
+2026-02-03 13:31:17,413 [INFO] contract_assessor.app: Matched Tool call to function: get_relevant_contract_chunks
+2026-02-03 13:31:22,900 [INFO] contract_assessor.app: LLM response content received.
+2026-02-03 13:33:11,277 [INFO] contract_assessor.app: Starting contract assessment for vendor=fcc category=fcc
+2026-02-03 13:42:53,016 [INFO] contract_assessor.app: Contract assessment completed successfully for vendor=fcc
+2026-02-03 13:52:49,891 [INFO] contract_assessor.app: Received chat question: What is the termination clause for Alfagomma?
+2026-02-03 13:52:52,082 [INFO] contract_assessor.app: LLM response content received.
+2026-02-03 13:52:52,083 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2026-02-03 13:52:52,083 [INFO] contract_assessor.app: Tool call to function: find_closest_vendor_names
+2026-02-03 13:52:52,083 [INFO] contract_assessor.app: Matched Tool call to function: find_closest_vendor_names
+2026-02-03 13:52:52,084 [INFO] contract_assessor.app: Finding closest vendor names for input: ['Alfagomma']
+2026-02-03 13:52:52,940 [INFO] contract_assessor.app: Matched vendor query 'Alfagomma' to 'Ognibene' with confidence 0.4755
+2026-02-03 13:52:52,941 [WARNING] contract_assessor.app: Low confidence (0.4755) matching vendor name 'Alfagomma' to 'Ognibene'
+2026-02-03 13:52:52,941 [INFO] contract_assessor.app: Matched vendor names returned: []
+2026-02-03 13:52:54,216 [INFO] contract_assessor.app: LLM response content received.
+2026-02-03 13:53:54,369 [INFO] contract_assessor.app: Received chat question: Can you check the termination clause for Ognibene
+2026-02-03 13:53:56,306 [INFO] contract_assessor.app: LLM response content received.
+2026-02-03 13:53:56,306 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2026-02-03 13:53:56,306 [INFO] contract_assessor.app: Tool call to function: find_closest_vendor_names
+2026-02-03 13:53:56,306 [INFO] contract_assessor.app: Matched Tool call to function: find_closest_vendor_names
+2026-02-03 13:53:56,307 [INFO] contract_assessor.app: Finding closest vendor names for input: ['Ognibene']
+2026-02-03 13:53:57,144 [INFO] contract_assessor.app: Matched vendor query 'Ognibene' to 'Ognibene' with confidence 1.0000
+2026-02-03 13:53:57,144 [INFO] contract_assessor.app: Matched vendor names returned: ['Ognibene']
+2026-02-03 13:53:58,607 [INFO] contract_assessor.app: LLM response content received.
+2026-02-03 13:53:58,607 [INFO] contract_assessor.app: Processing 1 tool call(s)
+2026-02-03 13:53:58,607 [INFO] contract_assessor.app: Tool call to function: get_relevant_contract_chunks
+2026-02-03 13:53:58,607 [INFO] contract_assessor.app: Matched Tool call to function: get_relevant_contract_chunks
+2026-02-03 13:54:04,512 [INFO] contract_assessor.app: LLM response content received.
+2026-02-03 15:52:17,564 [INFO] contract_assessor.app: File logging enabled at /home/vp899/projects/contract_assessor/Output/output_log.txt
+2026-02-03 15:52:17,564 [INFO] contract_assessor.app: Logging initialised.
+2026-02-03 15:52:20,984 [INFO] contract_assessor.app: Loaded contract chunk embeddings from /home/vp899/projects/contract_assessor/Output/contract_chunk_embeddings.csv
+2026-02-03 15:53:03,420 [INFO] contract_assessor.app: Loaded vendor name embeddings from /home/vp899/projects/contract_assessor/Output/vendor_name_embeddings.csv
+2026-02-03 15:53:03,963 [INFO] contract_assessor.app: Preloaded 9830 contract chunks and 114 vendor embeddings
